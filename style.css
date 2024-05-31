@@ -4,7 +4,7 @@
 
 body {
   margin: 0px;
-  font-family: 'segoe ui';
+  font-family: "segoe ui";
   background-color: black;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  background-color:rgb(35, 25, 234);
+  background-color: rgb(35, 25, 234);
   color: white;
 }
 
@@ -52,7 +52,7 @@ body {
   display: none;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -65,7 +65,8 @@ body {
     height: 50px;
     padding: 13px;
   }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
   .nav > .nav-btn > label > span {
@@ -98,19 +99,17 @@ body {
   }
 }
 
-
-
- #home img{
+#home img {
   border-radius: 62% 54% 25% 70% / 68% 64% 20% 46%;
   text-align: center;
- }
+}
 
- .my-heading h1{
+.my-heading h1 {
   color: white;
   font-size: 40px;
- }
+}
 
- #home {
+#home {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,20 +140,50 @@ body {
 
 .btn:hover {
   opacity: 0.9;
-  background-color: rgb(35, 25, 234) ;
+  background-color: rgb(35, 25, 234);
   color: white;
 }
 
-.main-btn{
-  color:rgb(35, 25, 234) ;
+.main-btn {
+  color: rgb(35, 25, 234);
 }
 
-.main-btn:hover{
+.main-btn:hover {
   opacity: 0.9;
-  background-color: rgb(35, 25, 234) ;
+  background-color: rgb(35, 25, 234);
   color: white;
 }
 
-.my-heading p{
+.my-heading p {
   font-size: large;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#home img {
+  animation: float 3s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn {
+  animation: pulse 2s infinite;
 }
