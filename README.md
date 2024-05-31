@@ -1,6 +1,6 @@
 # Restaurant Landing Page:
 
-Disclaimer:East Meets West is a fictional restaurant created for design and development purposes. This website does not represent a real-life restaurant.
+Disclaimer: East Meets West is a fictional restaurant created for design and development purposes. This website does not represent a real-life restaurant.
 
 Welcome to the East Meets West restaurant landing page! This conceptual project showcases our fusion cuisine theme, inviting visitors to explore a unique dining experience where culinary traditions from around the globe converge.
 
